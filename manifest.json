@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Open Through SSL-VPN Gateway",
+    "version": "0.0.1",
+    "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
